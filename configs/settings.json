@@ -1,0 +1,12 @@
+{
+    "defaultModel": "claude-3-5-sonnet-latest",
+    "defaultEffort": "low",
+    "enablePromptCaching": true,
+    "lazyToolLoading": true,
+    "autoCompactThreshold": 80000,
+    "statusLineScript": "~/.claude/scripts/status-line.sh",
+    "env": {
+        "ENABLE_TOOL_SEARCH": "false",
+        "MCP_LAZY_LOAD": "true"
+    }
+}

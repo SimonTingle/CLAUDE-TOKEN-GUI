@@ -1,0 +1,29 @@
+.DS_Store
+*.log
+node_modules/
+__pycache__/
+*.bak
+*.tmp
+.claude-backup/
+
+# Dashboard build artifacts
+dashboard/dist/
+dashboard/.vite/
+dashboard-server/dist/
+dashboard-server/*.db
+dashboard-server/tokens.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.claude/worktrees/
